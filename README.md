@@ -1,59 +1,36 @@
-# RoxyhanaPortfolio
+# Roxy Hana | Artist Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.2.
+A personal portfolio website for showcasing my work as an illustrator and comic artist, built with Angular.
 
-## Development server
+## About the Project
 
-To start a local development server, run:
+This project is a personal initiative to rebuild and strengthen my web development skills through hands-on practice.
 
-```bash
-ng serve
-```
+After spending time away from programming, I'm returning to frontend development by building something meaningful to me: my own artist portfolio. Rather than following tutorials alone, I want to learn by creating a real project, exploring modern Angular features, and gradually expanding its functionality as my knowledge grows.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+The initial goal is to create a clean, responsive, and visually engaging website that presents my illustrations, original characters, manga, and comics.
 
-## Code scaffolding
+This project is also an opportunity to document my learning process, practise good development habits, and build a foundation for more advanced projects in the future.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Current Features
 
-```bash
-ng generate component component-name
-```
+- Landing page with an introduction and a clear visual identity.
+- Portfolio sections for illustrations, manga and comics, and personal projects.
+- About and contact sections.
+- Custom styling with SCSS.
+- Version control with Git and remote repository hosting on GitHub.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+*The website is currently a work in progress. Features and sections will evolve as development continues.*
 
-```bash
-ng generate --help
-```
+## Technologies
 
-## Building
+### Currently used
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **Angular 22** – Frontend framework.
+- **TypeScript** – Application logic and type safety.
+- **HTML5** – Page structure and content.
+- **SCSS** – Styling and layout.
+- **Node.js** – JavaScript runtime and development environment.
+- **npm** – Package management.
+- **Angular CLI** – Project scaffolding and development tools.
+- **Git** –
