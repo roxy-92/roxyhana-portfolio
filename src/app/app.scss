@@ -1,0 +1,242 @@
+
+:host {
+  display: block;
+  color: #29251f;
+  background: #f8f6f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-header {
+  min-height: 88px;
+  padding: 0 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border-bottom: 1px solid #e5e0d7;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+nav {
+  display: flex;
+  gap: 32px;
+  font-size: 14px;
+}
+
+nav a,
+footer a {
+  transition: opacity 0.2s ease;
+}
+
+nav a:hover,
+footer a:hover {
+  opacity: 0.6;
+}
+
+.hero {
+  min-height: 540px;
+  padding: 110px 12% 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background: #eee7df;
+}
+
+.eyebrow {
+  margin: 0 0 22px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  margin: 0;
+  max-width: 800px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(56px, 8vw, 100px);
+  font-weight: 400;
+  line-height: 0.98;
+  letter-spacing: -4px;
+}
+
+.hero-description {
+  max-width: 480px;
+  margin: 30px 0;
+  color: #6b645c;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.button {
+  display: inline-block;
+  padding: 16px 25px;
+  background: #29251f;
+  color: #fff;
+  font-size: 13px;
+  transition: background 0.2s ease;
+}
+
+.button:hover {
+  background: #655347;
+}
+
+.portfolio-section {
+  padding: 100px 7%;
+}
+
+.section-heading {
+  margin-bottom: 40px;
+}
+
+.section-heading h2,
+.about-section h2 {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(36px, 5vw, 54px);
+  font-weight: 400;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.art-placeholder {
+  min-height: 340px;
+  display: flex;
+  align-items: flex-end;
+  padding: 22px;
+}
+
+.art-placeholder span {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 24px;
+}
+
+.art-one {
+  background: #ded3c6;
+}
+
+.art-two {
+  background: #d6d9d0;
+}
+
+.art-three {
+  background: #e4d3d4;
+}
+
+.art-card h3 {
+  margin: 22px 0 8px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.art-card p {
+  margin: 0;
+  color: #756e65;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.about-section {
+  padding: 100px 12%;
+  background: #eee7df;
+}
+
+.about-section > p:last-child {
+  max-width: 650px;
+  color: #6b645c;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+footer {
+  padding: 65px 7%;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 18px;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 25px;
+}
+
+footer a {
+  font-size: 14px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+footer small {
+  grid-column: 1 / -1;
+  color: #756e65;
+}
+
+@media (max-width: 700px) {
+  .site-header {
+    padding: 24px 6%;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .hero {
+    min-height: 460px;
+    padding: 80px 7%;
+  }
+
+  .hero h1 {
+    letter-spacing: -2px;
+  }
+
+  .portfolio-section {
+    padding: 70px 6%;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .art-placeholder {
+    min-height: 300px;
+  }
+
+  .about-section {
+    padding: 75px 7%;
+  }
+
+  footer {
+    padding: 50px 7%;
+    grid-template-columns: 1fr;
+  }
+
+  footer small {
+    grid-column: auto;
+  }
+}
