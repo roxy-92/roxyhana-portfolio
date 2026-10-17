@@ -1,6 +1,12 @@
 
 <header class="site-header">
-  <a class="logo" href="#">ROXY HANA</a>
+  <a class="logo" href="#">
+    <img
+      class="roxyhana_logo"
+      src="/images/logo_roxyhana.png"
+      alt="Roxy Hana"
+    />
+  </a>
 
   <nav aria-label="Main navigation">
     <a href="#portfolio">Portfolio</a>
@@ -11,47 +17,52 @@
 
 <main>
   <section class="hero">
-    <p class="eyebrow">ILLUSTRATION · MANGA · COMICS</p>
+    <div class="hero_content">
+      <p class="eyebrow">ILLUSTRATION · MANGA · COMICS</p>
 
-    <h1>Stories told<br />through art.</h1>
+      <h1>Stories told<br />through art.</h1>
 
-    <p class="hero-description">
-      Welcome to my creative world.
-      Explore my illustrations, original characters and stories.
-    </p>
+      <p class="hero-description">
+        Welcome to my creative world.
+        Explore my illustrations, original characters and stories.
+      </p>
 
-    <a class="button" href="#portfolio">Explore my work</a>
+      <a class="button" href="#portfolio">Explore my work</a>
+    </div>
   </section>
 
   <section id="portfolio" class="portfolio-section">
     <div class="section-heading">
       <p class="eyebrow">SELECTED WORKS</p>
-      <h2>My portfolio</h2>
+      <h1>{{ page_title()}}</h1>
     </div>
 
     <div class="portfolio-grid">
-      <article class="art-card">
-        <div class="art-placeholder art-one">
-          <span>01</span>
-        </div>
+      <article class="portfolio-card">
+        <img
+          src="images/illustrations.png"
+          alt="Character illustration"
+        />
         <h3>Illustration</h3>
-        <p>Characters &amp; original artwork</p>
+        <p>Characters & original artwork</p>
       </article>
 
-      <article class="art-card">
-        <div class="art-placeholder art-two">
-          <span>02</span>
-        </div>
-        <h3>Manga &amp; comics</h3>
+      <article class="portfolio-card">
+        <img
+          src="images/manga.png"
+          alt="Manga and comic artwork"
+        />
+        <h3>Manga & comics</h3>
         <p>Stories and sequential art</p>
       </article>
 
-      <article class="art-card">
-        <div class="art-placeholder art-three">
-          <span>03</span>
-        </div>
+      <article class="portfolio-card">
+        <img
+          src="images/projects.png"
+          alt="Personal illustration projects"
+        />
         <h3>Personal projects</h3>
-        <p>Worlds, characters &amp; ideas</p>
+        <p>Worlds, characters & ideas</p>
       </article>
     </div>
   </section>

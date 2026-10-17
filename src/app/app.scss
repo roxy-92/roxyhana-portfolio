@@ -14,6 +14,10 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.roxyhana_logo{
+  height: 150px;
+  width: auto;
+}
 
 .site-header {
   min-height: 88px;
@@ -54,7 +58,14 @@ footer a:hover {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  background: #eee7df;
+  background-image: url("/images/stories.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero_content{
+  padding: 20px;
+  background-color: rgba($color: #ffffff, $alpha: 0.7);
 }
 
 .eyebrow {
@@ -158,7 +169,7 @@ footer a:hover {
 
 .about-section {
   padding: 100px 12%;
-  background: #eee7df;
+  background: #f4dfed;
 }
 
 .about-section > p:last-child {
@@ -190,7 +201,7 @@ footer a {
 
 footer small {
   grid-column: 1 / -1;
-  color: #756e65;
+  color: #dbb7c4;
 }
 
 @media (max-width: 700px) {
@@ -238,5 +249,31 @@ footer small {
 
   footer small {
     grid-column: auto;
+  }
+}
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 35px;
+}
+
+.portfolio-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 3;
+  object-fit: cover;
+}
+
+.portfolio-card h3 {
+  margin-top: 24px;
+}
+
+.portfolio-card p {
+  color: #756f68;
+}
+
+@media (max-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
   }
 }
