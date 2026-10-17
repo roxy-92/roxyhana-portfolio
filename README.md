@@ -1,19 +1,31 @@
-# Programming Notebook
+# Roxyhana Portfolio
 
-Personal programming notes, written in English, to support a gradual return to software development.
+A personal portfolio website for showcasing my work as an artist, including illustrations, manga, comics, and personal projects.
 
-## Sessions
+## About the project
 
-- [Session 01: Setting Up and Publishing Projects](https://github.com/roxy-92/notes/blob/main/session-01.md)
-- [Session 02: Images, Backgrounds and SCSS](https://github.com/roxy-92/notes/blob/main/session-02.md)
+This project aims to create a dedicated online space to present my artwork, creative projects, and stories in a clean and visually engaging way.
 
-## How these notes work
+It is also a personal project to practise and strengthen my frontend development skills.
 
-Each session contains:
+## Technologies
 
-- **Key concepts:** Short definitions of new ideas.
-- **Commands:** Commands used and what they do.
-- **What I practised:** Concrete work completed.
-- **Next session:** A small, manageable next step.
+- **Angular**: Frontend framework.
+- **TypeScript**: Application logic.
+- **HTML**: Page structure.
+- **SCSS**: Styling and layout.
+- **Git and GitHub**: Version control and source code hosting.
 
-The goal is consistent practice, understanding, and building a portfolio over time.
+## Status
+
+In development.
+
+## Live website
+
+Coming soon.
+
+## Author
+
+**Roxy Hana**
+
+- Artist portfolio: [roxyhana.art](https://roxyhana.art/)
