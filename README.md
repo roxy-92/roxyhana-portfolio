@@ -4,8 +4,8 @@ Personal programming notes, written in English, to support a gradual return to s
 
 ## Sessions
 
-- [Session 01: Setting Up and Publishing Projects](session-01.md)
-- [Session 02: Images, Backgrounds and SCSS](session-02.md)
+- [Session 01: Setting Up and Publishing Projects](https://github.com/roxy-92/notes/blob/main/session-01.md)
+- [Session 02: Images, Backgrounds and SCSS](https://github.com/roxy-92/notes/blob/main/session-02.md)
 
 ## How these notes work
 
